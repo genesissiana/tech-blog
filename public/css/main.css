@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+  }
+  #navbar {
+    list-style-type: none;
+    padding: 50px;
+    margin: 0;
+    background-color: #ff0000f1;
+  }
+  
+  #navbar li {
+    padding: 10px;
+    display: inline;
+  }
+  
+  #navbar li p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #8e85e4;
+    display: inline;
+    font-size: large;
+  }
+  #nav-header {
+    color: #bdae29;
+    font-size: xx-large;
+    padding: 50px;
+  }
