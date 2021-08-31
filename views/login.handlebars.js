@@ -33,4 +33,6 @@
     </form>
 </div>
 {{!-- Load the login script --}}
-<script src="/js/login.js"></script>
+<script src="/js/login.js">
+
+</script>
