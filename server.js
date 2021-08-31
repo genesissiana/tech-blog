@@ -1,11 +1,23 @@
 const express = require("express");
 const path = require("path");
 //paths
-const controller = require("./controllers");
+const routes = require("./controllers");
 //handlebars
 const exphbs = require("express-handlebars");
 //Sequelize
 const sequelize = require("./config/connection");
+
+const session = require('express-session');
+
+const sess = {
+  secret: process.env.DB_SESSION_SECRET,
+  cookie: {},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize
+  })
+};
 
 
 //initialize the server
