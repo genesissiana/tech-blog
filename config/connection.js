@@ -1,8 +1,7 @@
 //import sequelize
 const Sequelize = require("sequelize");
 
-require("dotenv").config(); // For loading env variables
-//create the connection to the database
+require("dotenv").config(); 
 
 const sequelize = new Sequelize(
   process.env.DB_NAME, //vars set up in .env

@@ -1,38 +1,34 @@
-<link rel="stylesheet" href="./css/login.css">
-<div class="wrapper">
-    <form class="login-form">
-        <div class="padding-md">
-            <label for="email-login">email:</label>
-            <input type="text" id="email-login" />
-        </div>
-        <div class="padding-md">
-            <label for="password-login">password:</label>
-            <input type="password" id="password-login" />
-        </div>
-        <div class="padding-md">
-            <button type="submit" id="login-btn">login</button>
-        </div>
-    </form>
+<><div class="login-page">
+    <div class="login-div">
+        <h2>Log In</h2>
+        <form class="login-form">
+            <div>
+                <input type="text" id="email-login" class="login" placeholder="Email" />
+            </div>
+            <div>
+                <input type="password" id="password-login" class="login" placeholder="Password" />
+            </div>
+            <div>
+                <button type="submit" id="login-btn">Login</button>
+            </div>
+        </form>
+    </div>
 
-    <form class="signup-form">
-        <div>
-            <label for="username-signup">username:</label>
-            <input id="username-signup" type="text">
-        </div>
-        <div>
-            <label for="email-signup">email:</label>
-            <input type="text" id="email-signup" />
-        </div>
-        <div>
-            <label for="password-signup">password:</label>
-            <input type="password" id="password-signup" />
-        </div>
-        <div>
-            <button type="submit" id="signup-btn">signup</button>
-        </div>
-    </form>
-</div>
-{{!-- Load the login script --}}
-<script src="/js/login.js">
-
-</script>
+    <div class="signup-div">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <div>
+                <input type="text" id="username-signup" class="signup" placeholder="Username" />
+            </div>
+            <div>
+                <input type="text" id="email-signup" class="signup" placeholder="Email" />
+            </div>
+            <div>
+                <input type="password" id="password-signup" class="signup" placeholder="Password" />
+            </div>
+            <div>
+                <button type="submit" id="signup-btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</div><script src="/javascript/login.js"></script></>

@@ -39,26 +39,18 @@ User.init(
         },
         // define an email column
         email: {
-        // define the data type
         type: DataTypes.STRING,
-        // require the data to be entered
         allowNull: false,
-        // do not allow duplicate email values in this table
         unique: true,
-        // if allowNull is set to false, the data can be validated before creating the table data
         validate: {
-            // this will check the format of the entry as a valid email by pattern checking <string>@<string>.<string>
             isEmail: true
             }
         },
         // define a password column
         password: {
-        // define the data type
         type: DataTypes.STRING,
-        // require the data to be entered
         allowNull: false,
         validate: {
-            // this means the password must be at least four characters long
             len: [4]
             }
         }
