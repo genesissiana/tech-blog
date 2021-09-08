@@ -31,3 +31,32 @@ nav {
   border-bottom: 2px white solid;
   width: 100%;
 }
+.login-form {
+  padding: 10%;
+  display: inline-block;
+}
+
+.signup-form {
+  padding: 10%;
+  display: inline-block;
+}
+
+input {
+  float: left;
+  margin: 10px;
+}
+
+button {
+  background-color: maroon;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border: 0;
+  border-radius: 5px;
+  float: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: space-around;
+}
